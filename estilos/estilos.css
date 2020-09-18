@@ -1,0 +1,181 @@
+.header{
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+    font-size: 5px;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;;
+}
+
+.Palabra{
+    font-size: 13px;
+}
+
+.word{
+    color: #000;
+    font-size: 20px;
+}
+
+.words{
+    color: #000;
+    font-size: 100px;
+}
+
+
+.hero{
+    height: 400px;
+    background-color: #00BFFF;
+    background-image: url('../imagenes/garen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s ease;
+    
+    
+    
+}
+
+#videofondo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.hero:hover{
+    background-image: url('../imagenes/darius.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s ease;
+}
+
+.works{
+    background-image: url('../imagenes/senna.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    background-color: #fff;
+}
+
+.features{
+    background-image: url('../imagenes/pelea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    
+   
+}
+
+
+.testimonials{
+    background-image: url('../imagenes/mundial14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    transition: all 2s ease;
+    
+}
+
+.testimonials:hover{
+    background-image: url('../imagenes/mundialoscura.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s ease;
+}
+
+.footer{
+    height: 100px;
+    background-color: #252525;
+}
+
+.iconoLista{
+    width: 85px;
+}
+
+.logolista{
+    width: 200px;
+    height: 200px;
+}
+
+.Titulo-final{
+    font-size: 20px;
+}
+
+.Textos{
+    font-size: 19px;
+}
+
+@media screen and(max-width: 1200px){
+    .works{
+        background-position: center;
+        height: 2000px;
+    }
+    .words{
+        text-align: center;
+    }
+}
+
+   /*Resolicon para dispositivos moviles pequeños*/
+@media screen and (max-width: 767px){
+    
+    .header{
+        height: 200px;
+       
+    }
+    
+    
+    .works{
+        height: 2200px;
+        background-position: center;
+    }
+    .words{
+        text-align: center;
+    }
+
+    .header{
+        
+        
+        
+    }
+    .features{
+        
+        height: 2100px;
+        
+    }
+
+    .testimonials{
+       
+        height: 1500px;
+    }
+}
+
+@media screen and(max-width: 575px){
+    .works{
+        background-position: center;
+        height: 2000px;
+    }
+    .words{
+        text-align: center;
+    }
+
+    .header{
+        height: 10px;
+        background-color: rgb(8, 8, 8);
+        font-size: 5px;
+    }
+    .tituloriot{
+        font-size: 100px;
+    }
+    .testimonials{
+        height: 1000px;
+    }
+}
+
+/*#videofondo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}*/
+
+
+
